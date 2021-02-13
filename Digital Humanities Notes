@@ -1,3 +1,26 @@
+JE:  For some reason Mihal's invitation to join as collaborator was going to my junk mail.  
+(Maybe the spam algo didn't trust the name IonicFlavor?)  But I am here, and have now had
+a chance to read your interesting discussions.  I like how you have responded to one another
+and dug deeper into some questions around literacy and ignorance, moral judgment and sentence
+length.  Julius's comments on the lack of ability to take a more fine-toothed sweep through
+the datasets on sentencing is very much on point. I wonder, though, if there really is enough
+data to support anything more than broad hypotheses.  Chloe's note about the large proportion
+of women inmates who were young and black is very astute, and Calista makes good related 
+observations about the ages of women inmates and their sentence lengths.  A good project might 
+be to study the women in ESP.  They were not terribly numerous compared to men, and one could read all the
+admissions entries and moral notes on them over a span of say 25 years, and write a very interesting
+report.  
+
+Very nice job on this.  Note that you need to use line breaks when editing a text doc in Git!
+Otherwise you'll end up with your whole comment on one very very long line.
+
+You guys get 9.5/10 on this.
+
+Jim
+
+
+
+
 CN: 1) Visualization description: I visualized word frequencies in moral instructor’s notes of inmates and created a “Corpus A” with the characteristics Male, Illiterate, All Sobriety Categories, and All Admission Books and “Corpus B” with the characteristics Male, Reads and Writes, All Sobriety Categories, and All Admission Books. I wanted to isolate the literacy categorization and how it influenced the most common words in moral instructor’s notes. In the Comparative Frequencies plot, words such as “affirms”, “god”, “dead” and “parents” appear with near equal frequency in each plot. However, words associated with literate prisoners are generally more positive (“real”, “baptist”, “pious”, “business”, “child”, etc.) while words associated with illiterate prisoners are more negative (“enmity”, “stupid”, “ignorant”, etc.).
 2) Relationship between visualization and repo: The word cloud processes all three admissions books in the repo (A, B, and D). It appears to look at the ColumnNote column and pulls out relevant words to determine whether an inmate can read, write, both, or neither. There is also an option for "Reads other language". The other levers that can be changed are "Admission Book" (A, B, D); "Sobriety" (Sober, Drinks, Drinks a Little, Drinks Often); and "Gender" (Female, Male, All). The visualization selects specific inmate entries based on the specifications and then plots commonly-repeated words from moral instructors' notes. A lot of these words, surprisingly, appear to not be articles such as "the", but more unique words such as "baptist" or "real".
 3) Dara errors/limitations: The classification of "can read and write" (calling literate for ease) vs illiterate may be a cause for some confusion in the data since it appears it is based off the column called ColumnNote, which doesn’t clearly separate people who are slightly familiar with reading and writing versus people who are very fluent in reading and writing. Also, while some of these words in the Comparative Frequencies may initially appear positive, they don’t capture context (for example, one of the literate inmates was described as “professing to be God”, which is not positive). This means the connotations of these words can't necessarily be assumed. 
@@ -8,7 +31,12 @@ CN: 1) I performed an Eastern Apps data visualization on length of inmates’ se
 3) Scanning through the raw data, there are some missing inputs in entries such as age and offense (but not many). This could impact the data, but it doesn’t appear that too many of these entries are missing (so likely not too large of an impact). Also, the age ranges provided on Eastern Apps range from 11-75 years old, making me wonder if there are any older inmates who are being excluded.
 4) There are a few reasons why the data might be appearing like this: maybe there was more favorable sentencing of minors (even though they committed the same types of crimes that 18+ year olds committed), or these minors generally committed less severe crimes than adults. After looking through a bit of the raw data, I found some entries with serious offenses (i.e., Eliza Connelly or Conway, 16 years old, sentenced for poisoning); therefore, it might be more likely that there is more favorable sentencing of minors. It would be interesting to combine these data visualizations with qualitative research about sentencing legislation from the court to see if there were actually more favorable terms for younger prisoners/minors. Another interesting data visualization would be plotting the words from the crimes for <18 year old prisoners versus words from crimes for 18+ prisoners and seeing if there's any repeats of words, common words, or perhaps more severe crimes generally being performed by a specific segment of prisoners. This would require the data on type of crime committed, which is available in the Admission Books.
 
-JS - The app 3 data visualization compares different groups, such as gender and country of origin, with the length of sentence they face. The admissions book data has a section with how long the sentence of a person is, which is where they got their data. The data only shows at a range of sentences for months. You can only look at disparities in sentence between races by a range of months. You can't see the difference of races and compare them with a 1 month sentence and a 12 month sentence at the same time. It would be interesting to see how multiple factors, such as age and number of convictions, relate to the sentence length of an inmate. This data is already available in the admission books.
+JS - The app 3 data visualization compares different groups, such as gender and country of origin, with the length of sentence they face. 
+The admissions book data has a section with how long the sentence of a person is, which is where they got their data. 
+The data only shows at a range of sentences for months. You can only look at disparities in sentence between races by a range of months. 
+You can't see the difference of races and compare them with a 1 month sentence and a 12 month sentence at the same time. 
+It would be interesting to see how multiple factors, such as age and number of convictions, relate to the sentence length of an inmate. 
+This data is already available in the admission books.
 
 JS- The app 1 data visualization compares different groups, such as males and females, literate and not literate, etc, with their word frequencies in the Moral Instructor's notes. The data uses the Moral Instructors notes in the repo, and counts the times it was used by a certain group. With so many words, some words are left out and not defined, which can be very limiting. One minor revision, could be to color code the words based on if they are "negative" or "positive" or "neutral". All of these terms are subjective as not everyone may agree that a word is positive and such, but it would be interesting. This would require someone to judge words based on if they think the word is positive, negative, or neutral. It would also be interesting to compare the word usage as it compares to moral instructors. Unfortunately, the data in the repo doesn't have the author of the instructor notes, so this would be rather hard to do. But it would allow us to see if one instructor may have been known to use a particular word. We may want to remove data like this to get a better correlation. It would also be interesting to know how strong the data is correlated. I wished the creators added a correlation coefficient. The red line they have through the data is a nice touch. 
 
